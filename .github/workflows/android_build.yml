@@ -24,8 +24,12 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build 
-# Make artifact APK 
+        run: ./gradlew build
+
+      - name: Run Kotlin Linter
+        run: ./gradlew lint
+
+      # Make artifact APK
       - name: Upload APK
         uses: actions/upload-artifact@v2.2.3
         with:
