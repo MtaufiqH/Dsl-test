@@ -40,6 +40,7 @@ dependencies {
     implementation Dependencies.appCompat
     implementation Dependencies.materialDesign
     implementation Dependencies.constraintLayout
+    implementation Dependencies.glide
 
     // test
     testImplementation Dependencies.jUnit

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KotlinDsl Test</string>
+    <string name="image_test">image test</string>
 </resources>
