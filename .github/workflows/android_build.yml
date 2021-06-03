@@ -3,7 +3,7 @@ name: Android Build
 on: 
   push: 
     branches: [ master ]
-  pull_request:
+  pull_request_review:
     branches: [ master ]
 
 jobs:
